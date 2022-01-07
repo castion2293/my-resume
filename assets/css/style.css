@@ -204,11 +204,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
+* translation Navigation
+*/
+.translation-nav-toggle {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  z-index: 9998;
+  border: 0;
+  background: none;
+  font-size: 28px;
+  transition: all 0.4s;
+  outline: none !important;
+  line-height: 0;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 5px;
+}
+.translation-nav-toggle i {
+  color: #45505b;
+}
+
+/**
 * Mobile Navigation
 */
 .mobile-nav-toggle {
   position: fixed;
-  right: 10px;
+  left: 10px;
   top: 10px;
   z-index: 9998;
   border: 0;
